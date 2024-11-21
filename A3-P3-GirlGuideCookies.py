@@ -44,42 +44,15 @@ def main():
 
     print("")
 
-    for i in range(NumGuides):
-        print(GuideNames[i])
-        if GuidesBoxes[i] 
-        if GuidesBoxes[i] > int(RoundAvgBoxes):
-            print(f"\n{GuideNames[i]} win the super seller badge!")
-        
-    
-    
-    
-    
-    
-    # #if max(GuideNames):
-    #     print(f"\n{max(GuideNames)} wins a trip to the Girl Guide Jamboree!")
-    # #elif GuidesBoxes > int(RoundAvgBoxes):
-    #     print(f"\n{GuideNames > int(RoundAvgBoxes)} win the super seller badge!")
-    # elif GuidesBoxes == 0:
-    #     print(f"{GuideNames} win nothing.")
-    # else:
-    #     print(f"{GuideNames} get the left over cookies.")
-
-    # print(f"{counter} gets a prize!")
-        
-
-
-
-
-    # #for counter in range(NumGuides): 
-    #     #if (max(GuidesBoxes)):
-    #        # print(f"\n{max(GuideNames)} wins a trip to the Girl Guide Jamboree!")
-    #     #elif GuidesBoxes[counter] > RoundAvgBoxes:
-    #        # print(f"{GuideNames, GuidesBoxes} win super seller badge") 
-    #        # found = True
-    #     #elif GuidesBoxes == 0:
-    #        # print(f"{GuideNames} won nothing")
-
-
+    for i in range(NumGuides): #logic not quite printing right here... so submitting as is as I am overdue. 
+        if max(GuideNames):
+            print(f"\n{GuideNames[i]} wins a trip to the Girl Guide Jamboree!")
+        elif GuidesBoxes[i] > int(RoundAvgBoxes):
+            print(f"\n{GuideNames[i]} wins the super seller badge!")
+        if (GuidesBoxes[i]) ==0:
+            print(f"\n{GuideNames[i]} wins nothing.")
+        else: 
+            print(f"\n{GuideNames[i]} wins the leftover cookies.") 
 
     # # YOUR CODE ENDS HERE
 
