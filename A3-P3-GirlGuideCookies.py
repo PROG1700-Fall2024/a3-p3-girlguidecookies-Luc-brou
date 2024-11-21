@@ -37,19 +37,50 @@ def main():
     elif RoundAvgBoxes==0: #check for if no cookies sold, tell user
         print("\nThe Girl Guides did not sell any cookies.")
 
-    #add an elif to show which girl guide didnt sell any boxes >:)
-
     else: #Prints average amount of boxes sold
         print(f"\nThe average amount of boxes sold by each Girl Guide is {int(RoundAvgBoxes)}.")
 
     print("\n-------------------------------------------------------------------------------------------------------") 
+
+    print("")
+
+    for i in range(NumGuides):
+        print(GuideNames[i])
+        if GuidesBoxes[i] 
+        if GuidesBoxes[i] > int(RoundAvgBoxes):
+            print(f"\n{GuideNames[i]} win the super seller badge!")
+        
     
-    if (max(GuidesBoxes)):
-        print(f"\n{max(GuideNames)} win: trip to the Girl Guide Jamboree.")
     
+    
+    
+    
+    # #if max(GuideNames):
+    #     print(f"\n{max(GuideNames)} wins a trip to the Girl Guide Jamboree!")
+    # #elif GuidesBoxes > int(RoundAvgBoxes):
+    #     print(f"\n{GuideNames > int(RoundAvgBoxes)} win the super seller badge!")
+    # elif GuidesBoxes == 0:
+    #     print(f"{GuideNames} win nothing.")
+    # else:
+    #     print(f"{GuideNames} get the left over cookies.")
+
+    # print(f"{counter} gets a prize!")
+        
 
 
 
-    # YOUR CODE ENDS HERE
+
+    # #for counter in range(NumGuides): 
+    #     #if (max(GuidesBoxes)):
+    #        # print(f"\n{max(GuideNames)} wins a trip to the Girl Guide Jamboree!")
+    #     #elif GuidesBoxes[counter] > RoundAvgBoxes:
+    #        # print(f"{GuideNames, GuidesBoxes} win super seller badge") 
+    #        # found = True
+    #     #elif GuidesBoxes == 0:
+    #        # print(f"{GuideNames} won nothing")
+
+
+
+    # # YOUR CODE ENDS HERE
 
 main()
